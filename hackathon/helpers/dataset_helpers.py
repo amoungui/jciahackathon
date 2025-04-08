@@ -39,14 +39,3 @@ def load_data(dataset_dir):
 
     print(f"Total images chargées : {len(images)}")
     return np.array(images), np.array(labels)
-
-if __name__ == "__main__":
-    pass
-    # print(sys.path)
-
-    # path = "dataset"
-#    datadir = os.path.join(path, "african_plums")
-#    print("[INFO] loading datasets...")
-#    data, labels = load_data(datadir)
-#    print("[INFO] loaded datasets...")
-#    print(data[0])
